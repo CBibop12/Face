@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Etna";
+  src: url("../fonts/etna-free-font.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+ul {
+  list-style-type: none; }
+
+body {
+  background-color: #E5E5E5;
+  padding-bottom: 30px; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  max-width: 1295px;
+  margin: auto; }
+
+.d-flex {
+  display: flex;
+  justify-content: space-between; }
+
+header {
+  height: 100px;
+  padding-top: 30px; }
+  header .nav-div ul {
+    height: 100%;
+    padding-top: 20px; }
+    header .nav-div ul li {
+      height: 100%;
+      padding-right: 20px;
+      margin-left: 20px;
+      border-right: 1px solid #767676; }
+      header .nav-div ul li:hover a {
+        color: black; }
+      header .nav-div ul li a {
+        font-size: 22px;
+        font-family: "Open Sans", sans-serif;
+        color: #767676;
+        font-weight: bold;
+        padding-top: 10px;
+        transition: 0.7s; }
+  header .logo-div {
+    display: flex;
+    justify-content: space-between; }
+    header .logo-div i {
+      font-size: 40px;
+      color: #4FBFA5; }
+    header .logo-div a h2 {
+      font-size: 40px;
+      font-family: "Etna", sans-serif;
+      color: #4FBFA5; }
+
+.main-p-text {
+  display: block;
+  padding: 10px;
+  background-color: white;
+  color: grey;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif; }
+  .main-p-text span {
+    font-size: 30px;
+    font-family: "Etna", sans-serif;
+    color: #349a83; }
+  .main-p-text a {
+    color: #349a83; }
+
+.name-of-sec {
+  width: 100%;
+  margin: 5px 0;
+  background-color: white;
+  text-align: center;
+  height: 40px;
+  box-sizing: border-box;
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: #349a83;
+  padding-top: 5px; }
+
+.item {
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px; }
+  .item img {
+    width: 25%; }
+  .item .name {
+    display: block;
+    padding: 10px;
+    background-color: white;
+    color: grey;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif; }
+    .item .name .s-1 {
+      font-size: 30px;
+      font-family: "Etna", sans-serif;
+      color: #349a83; }
+    .item .name .s-2 {
+      font-size: 26px;
+      font-family: "Etna", sans-serif;
+      color: #12473b; }
+
+/*# sourceMappingURL=style.css.map */
